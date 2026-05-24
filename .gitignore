@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Streamlit and local runtime data
+.streamlit/secrets.toml
+data/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local/private exports
+investment_analysis_*.xls
+investment_analysis_*.xlsx
+investment_analysis_*.csv
+zillow_export_*.csv
+zillow_export_*.xls
+zillow_export_*.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
