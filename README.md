@@ -108,12 +108,6 @@ The app creates a local SQLite database at:
 data/deals.sqlite3
 ```
 
-This file is ignored by Git so private saved deals are not committed. Delete it to reset the app.
-
-## Privacy
-
-Do not commit real Zillow exports or the SQLite database. Keep listing exports and saved deals on your machine only.
-
 ## Disclaimer
 
 This is an analytics prototype for comparing real estate assumptions. It is not financial advice, and results depend on the accuracy of imported rent, loan, tax, insurance, and expense estimates.
